@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "membname": "Amardeep",
+    "profession": "Student",
+    "address": "udupi",
+    "age": 21,
+    "joineddate": "11-12-2002",
+    "bookissued1": "bk-24",
+    "bookissued2": "bk-5"
+  },
+  {
+    "id": 2,
+    "membname": "Abishek",
+    "profession": "Student",
+    "address": "Karkala",
+    "age": 21,
+    "joineddate": "11-12-2002",
+    "bookissued1": "bk-23",
+    "bookissued2": "bk-4"
+  },
+  {
+    "id": 3,
+    "membname": "Deepthi",
+    "profession": "Student",
+    "address": "Mangalore",
+    "age": 20,
+    "joineddate": "11-12-2002",
+    "bookissued1": "bk-27",
+    "bookissued2": "bk-1"
+  }
+]

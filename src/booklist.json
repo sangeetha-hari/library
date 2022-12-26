@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "bookname": "Programming with C",
+    "author1name": "Richard john",
+    "author2name": "Rheal",
+    "bookedition": 6,
+    "publication": "Mcgraey",
+    "pyear": 1994,
+    "bookcount": 5,
+    "issuedcount": 0
+  },
+  {
+    "id": 2,
+    "bookname": "Engineering Mathmatics",
+    "author1name": "Gopalkrishnan",
+    "author2name": "",
+    "bookedition": 4,
+    "publication": "SPD",
+    "bookcount": 5,
+    "issuedcount": 0
+  },
+  {
+    "id": 3,
+    "bookname": "JavaScript & jQuery",
+    "author1name": "Davis Sawyer",
+    "author2name": "",
+    "bookedition": 3,
+    "publication": "SPD",
+    "bookcount": 5,
+    "issuedcount": 0
+  }
+]
