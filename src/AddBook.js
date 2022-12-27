@@ -1,8 +1,7 @@
 import React from "react";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
-import { useFormik, Form, Formik, Field } from "formik";
-import { DatePicker } from '@mui/x-date-pickers/DatePicker';
+import { useFormik } from "formik";
 import  * as Yup from 'yup';
 
 export default function AddBook() {
@@ -19,8 +18,8 @@ export default function AddBook() {
       
     },
     validationSchema:Yup.object({
-        bookname:Yup.string().max(40, "Maximum of 40 character").required("This fiels is required"),
-        author1name: Yup.string(). max(15).min(4).required(),
+        bookname:Yup.string().max(40,"Maximum of 40 character").required("This fiels is required"),
+        author1name: Yup.string().max(15).min(4).required(),
         author2name:Yup.string().max(15).min(4),
         bookedition:Yup.number(2).required("Book Edition year is required"),
         publication:Yup.string().required("Published is required"),
